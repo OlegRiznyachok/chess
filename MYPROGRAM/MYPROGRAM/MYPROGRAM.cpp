@@ -16,7 +16,7 @@ int main()
 		}
 		cout << endl;
 		for (int j = 1; j <= 8; j++) {
-			if ((x1 == j) and (y1 == i) or ((x2 == j) and (y2 == i))) {
+			if ((x1 == j) and (9-y1 == i) or ((x2 == j) and (9-y2 == i))) {
 				cout << "|*";
 			}
 			else {
